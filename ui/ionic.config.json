@@ -1,0 +1,7 @@
+{
+  "name": "ritual-desk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

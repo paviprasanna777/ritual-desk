@@ -1,0 +1,14 @@
+{
+  "name": "ritual-desk",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "ui"
+  ],
+  "scripts": {
+    "ui:start": "npm --prefix ui run start",
+    "ui:build": "npm --prefix ui run build",
+    "ui:lint": "npm --prefix ui run lint",
+    "ui:test": "npm --prefix ui run test"
+  }
+}
