@@ -1,0 +1,13 @@
+:host {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+ion-app {
+  width: min(100%, 480px);
+  height: 100%;
+  margin: 0 auto;
+  background: var(--rd-cream);
+  box-shadow: 0 0 40px color-mix(in srgb, var(--rd-ink) 8%, transparent);
+}

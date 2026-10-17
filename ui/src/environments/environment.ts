@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // On a phone, use the PC's LAN IP address instead of localhost.
+  apiUrl: 'http://localhost:3000',
 };
 
 /*

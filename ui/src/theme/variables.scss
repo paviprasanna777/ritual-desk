@@ -1,2 +1,78 @@
-// For information on how to create your own theme, please refer to:
-// https://ionicframework.com/docs/theming/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Mukta:wght@400;500;600;700&display=swap');
+
+:root {
+  --rd-maroon: #7A1F2B;
+  --rd-saffron: #E08A1E;
+  --rd-cream: #FBF6EE;
+  --rd-ink: #2B1A14;
+  --rd-muted: #5E4B40;
+  --rd-border: #EADFCF;
+  --rd-booked: #FBD79A;
+  --rd-scheduled: #DCE8F8;
+  --rd-completed: #CFE8D5;
+  --rd-cancelled: #F3D6D6;
+  --rd-card-radius: 16px;
+  --rd-tap-target: 48px;
+  --ion-font-family: 'Mukta', sans-serif;
+  --ion-background-color: var(--rd-cream);
+  --ion-text-color: var(--rd-ink);
+  --ion-color-primary: var(--rd-maroon);
+  --ion-color-primary-rgb: 122, 31, 43;
+  --ion-color-primary-contrast: var(--rd-cream);
+  --ion-color-primary-contrast-rgb: 251, 246, 238;
+  --ion-color-primary-shade: #6b1b26;
+  --ion-color-primary-tint: #873540;
+  --ion-color-secondary: var(--rd-saffron);
+  --ion-color-medium: var(--rd-muted);
+  --ion-border-color: var(--rd-border);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+  background: var(--rd-cream);
+  color: var(--rd-ink);
+  font-family: 'Mukta', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+button,
+a,
+input,
+select,
+textarea,
+ion-tab-button {
+  min-height: var(--rd-tap-target);
+}
+
+:focus-visible {
+  outline: 3px solid var(--rd-saffron);
+  outline-offset: 2px;
+}
+
+.rd-page-content {
+  --background: var(--rd-cream);
+  --color: var(--rd-ink);
+}
+
+.rd-page-padding {
+  padding: 16px 16px calc(92px + env(safe-area-inset-bottom));
+}
+
+.rd-card {
+  border: 1px solid var(--rd-border);
+  border-radius: var(--rd-card-radius);
+  background: var(--rd-cream);
+}

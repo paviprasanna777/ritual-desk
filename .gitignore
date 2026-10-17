@@ -31,6 +31,7 @@ log.txt
 
 # Node
 /node_modules
+**/node_modules/
 npm-debug.log
 yarn-error.log
 
@@ -56,6 +57,13 @@ yarn-error.log
 # Miscellaneous
 /.angular
 /.angular/cache
+ui/.angular/
+ui/www/
+api/dist/
+api/node_modules/
+database/*.sqlite
+database/*.sqlite-*
+database/backups/
 .sass-cache/
 /.nx
 /.nx/cache
