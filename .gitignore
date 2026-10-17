@@ -32,6 +32,10 @@ log.txt
 # Node
 /node_modules
 **/node_modules/
+.env
+**/.env
+**/.env.*
+!**/.env.example
 npm-debug.log
 yarn-error.log
 
